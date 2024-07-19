@@ -1,0 +1,79 @@
+/* Global body styles */
+body {
+  padding :10px ;
+  padding-right: 10px;
+  background: linear-gradient(to right, #adeaea, #81b3cf, #5c95c0); /* Blue colored gradient */
+  font-family: Arial, sans-serif; /* Use a standard font for better cross-device compatibility */
+ 
+}
+
+/* Styling for the form container */
+/* Styling for the form container */
+.form-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  max-width: 600px; /* Adjust maximum width as needed */
+  width: 100%;
+  margin: auto; /* Center align the form */
+  padding: 20px;
+  background-color: transparent;
+  min-width: device-width; /* Set minimum width to device width */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px; /* Add margin at the top */
+
+}
+  
+ 
+
+/* Styling for form labels */
+.form-label {
+  font-weight: bold;
+}
+
+/* Styling for input fields */
+.form-input {
+  width: 100%; /* Ensure input fields take full width */
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Styling for submit button */
+.form-submit {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff; /* Change color as per your preference */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for submit button */
+.form-submit:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+  
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 15px;
+  }
+}
+
+#submit{
+  background: linear-gradient(to right, #769ab5, #1374ac, #769ab5);
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
