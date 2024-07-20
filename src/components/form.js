@@ -176,6 +176,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your personal contact number" 
+        required
       />
     </div>
     <div>
@@ -187,6 +188,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your parent contact number" 
+        required
       />
     </div>
     <div>
@@ -198,6 +200,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your date of birth" 
+        required
       />
     </div>
     <div>
@@ -235,6 +238,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter any health issues" 
+        required
       />
     </div>
     <div>
@@ -260,6 +264,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your Adhar number" 
+        required
       />
     </div>
     <div>
@@ -286,7 +291,8 @@ return (
         value={formData.offerLetterLink} 
         onChange={handleChange} 
         className="form-input" 
-        placeholder="Enter the drive link of complete offer letter" 
+        placeholder="Enter the drive link of complete offer letter"
+        required
       />
     </div>
     <div>
@@ -298,6 +304,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your screening test marks" 
+        required
       />
     </div>
     <div>
@@ -309,6 +316,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your Codechef username" 
+        required
       />
     </div>
     <div>
@@ -320,6 +328,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your Leetcode username" 
+        required
       />
     </div>
     <div>
@@ -331,6 +340,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your Atcoder username" 
+        required
       />
     </div>
     <div>
@@ -342,6 +352,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your Readtheory username" 
+        required
       />
     </div>
     <div>
@@ -353,6 +364,7 @@ return (
         onChange={handleChange} 
         className="form-input" 
         placeholder="Enter your Codeforces username" 
+        required
       />
     </div>
     <div>
@@ -363,7 +375,8 @@ return (
         value={formData.discordUsername} 
         onChange={handleChange} 
         className="form-input" 
-        placeholder="Enter your Discord username" 
+        placeholder="Enter your Discord username"
+        required
       />
     </div>
     <button id="submit" type="submit" className="form-submit">Submit</button>
